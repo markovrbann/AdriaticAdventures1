@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pocetni">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.adriaticadventures.ui.home.HomeFragment"
+        android:label="@string/Krk"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pocetni"
+        android:name="com.example.adriaticadventures.ui.pocetna.pocetniFragment"
+        android:label="@string/Pocetna"
+        tools:layout="@layout/fragment_pocetni" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.adriaticadventures.ui.gallery.GalleryFragment"
+        android:label="@string/Cres"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.adriaticadventures.ui.slideshow.SlideshowFragment"
+        android:label="@string/Losinj"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_fragment_item"
+        android:name="com.example.adriaticadventures.ui.item.RabFragment"
+        android:label="@string/Rab"
+        tools:layout="@layout/fragment_rab2" />
+</navigation>

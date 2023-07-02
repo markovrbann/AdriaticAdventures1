@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AdriaticAdventures</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Krk">Krk</string>
+    <string name="Cres">Cres</string>
+    <string name="Losinj">Lošinj</string>
+    <string name="Rab">Rab</string>
+    <string name="Pocetna">Pocetna</string>
+    <string name="krk_opis">Otok Krk, poznat kao "Zlatna vrata Kvarnera", privlači posjetitelje svojom raznolikošću i prirodnim ljepotama. Ova mediteranska oaza obuhvaća predivne plaže, slikovite uvale, stoljetne povijesne znamenitosti i gastronomsku raznolikost. Krk se ponosi svojom bogatom kulturnom baštinom, od antičkih spomenika do srednjovjekovnih gradova poput Krka i Vrbnika. Osim toga, otok nudi razne aktivnosti poput ronjenja, jedrenja i planinarenja. Uživajte u tirkiznim vodama, istražite čarobne špilje poput Biserujke i otkrijte autentičnu kuhinju s okusima lokalnih specijaliteta poput šurlica i krčkog pršuta. Krk je pravi raj za sve ljubitelje prirode, kulture i aktivnog odmora. Ne propustite priliku posjetiti ovaj prekrasan otok i otkriti sve što nudi!</string>
+    <string name="krk_prijevoz">PRIJEVOZ</string>
+    <string name="razmak">      </string>
+    <string name="cres_opis">Otok Cres, jedan od najvećih hrvatskih otoka, oduševljava svojom netaknutom prirodom. Divlje plaže, šumovite šume, kristalno čisto more i rijetke biljne i životinjske vrste čine Cres jedinstvenim. Bogata povijest, srednjovjekovni gradovi poput Cresa i Lubenica, te arheološka nalazišta ostavljaju tragove prošlosti. Tradicionalna kuhinja, maslinova ulja i vrhunska vina zadovoljit će gurmanske želje. Aktivnosti poput planinarenja, biciklizma i ronjenja pružaju avanture za svakoga. Otok Cres je raj za ljubitelje prirode, kulture i istraživanja. Upustite se u otkrivanje njegovih čarolija i stvorite nezaboravne uspomene.</string>
+    <string name="losinj_opis">Otok Lošinj, biserna oaza Jadrana, obara dah svojom prirodom i ljepotom. Kristalno čisto more, uvalice s plažama, mirisne šume, mediteranska vegetacija i raznolikost divljeg svijeta privlače posjetitelje. Bogata povijest i kulturno naslijeđe očaravaju svojim spomenicima. Predivni grad Mali Lošinj, otok vitalnosti i zdravlja, nudi wellness, spa i ljekovite biljke. Uživajte u miru, opustite se uz prekrasne zalaske sunca i istražite morske avanture. Plivanje, ronjenje i jedrenje samo su neke od aktivnosti koje možete doživjeti. Kušajte okuse lokalne kuhinje i divite se tradicionalnim obrtima. Lošinj je pravi raj za dušu i tijelo, mjesto gdje se susreću priroda i harmonija.</string>
+    <string name="rab_opis">Otok Rab, poznat kao "Srebrni otok", očarava posjetitelje svojom ljepotom i raznolikošću. Slikovite plaže, povijesne znamenitosti poput starog grada Raba, prekrasna priroda i bujna vegetacija čine Rab jedinstvenim. Uživajte u kristalno čistim vodama, istražite tajanstvene špilje poput Špilje Lopača, prošetajte po stazama Kamenjaka ili se prepustite adrenalinskim sportovima poput ronjenja i jedrenja. Rab je također poznat po svojoj bogatoj gastronomskoj ponudi, s autentičnim jelima poput Rapske torte i domaćeg vina. Upoznajte prijateljske lokalne stanovnike i istražite prekrasan otok Rab, koji pruža nevjerojatno iskustvo i nezaboravne trenutke.</string>
+</resources>
