@@ -26,8 +26,20 @@
             android:title="@string/Rab" />
         <item
             android:id="@+id/nav_fragment_fk"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/discussion"
             android:title="@string/action_forumkrk" />
+        <item
+            android:id="@+id/nav_fragment_fc"
+            android:icon="@drawable/discussion"
+            android:title="@string/action_forumcres" />
+        <item
+            android:id="@+id/nav_fragment_fl"
+            android:icon="@drawable/discussion"
+            android:title="@string/action_forumlosinj" />
+        <item
+            android:id="@+id/nav_fragment_fr"
+            android:icon="@drawable/discussion"
+            android:title="@string/action_forumrab" />
 
     </group>
 </menu>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.forumkrk.ForumKrk">
+    tools:context=".ui.forumcres.ForumCres">
 
     <EditText
         android:id="@+id/reviewEditText"
@@ -20,7 +20,7 @@
         android:textStyle="bold"
         android:layout_marginStart="100dp"
         android:layout_marginTop="100dp"
-        android:text="@string/dodaj_recenziju" />
+        android:text="Dodaj recenziju" />
 
 
 
@@ -41,23 +41,24 @@
         android:layout_height="match_parent"
         android:layout_marginTop="255dp"> >
 
-    <FrameLayout
-        android:id="@+id/reviewContainer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-
-        <TextView
-            android:id="@+id/reviewTextView"
+        <FrameLayout
+            android:id="@+id/reviewContainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:textSize="14dp"
-            android:textColor="@color/black"
-            android:background="@color/boja" />
+            android:layout_height="match_parent" >
 
-    </FrameLayout>
+
+            <TextView
+                android:id="@+id/reviewTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:background="@color/boja" />
+
+        </FrameLayout>
 
     </ScrollView>
+
 
 </RelativeLayout>

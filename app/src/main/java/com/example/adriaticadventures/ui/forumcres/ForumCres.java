@@ -1,6 +1,13 @@
-package com.example.adriaticadventures.ui.forumkrk;
+package com.example.adriaticadventures.ui.forumcres;
+
+import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,24 +16,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import com.example.adriaticadventures.R;
+import com.example.adriaticadventures.ui.forumkrk.ForumKrk;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.firestore.FirebaseFirestoreSettings;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
-public class ForumKrk extends Fragment {
+public class ForumCres extends Fragment {
 
     private EditText reviewEditText;
     private TextView reviewTextView;
@@ -45,7 +46,7 @@ public class ForumKrk extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_forum_krk, container, false);
+        View view = inflater.inflate(R.layout.fragment_forum_cres, container, false);
 
         // Inicijalizacija UI elemenata
         reviewEditText = view.findViewById(R.id.reviewEditText);
@@ -71,8 +72,8 @@ public class ForumKrk extends Fragment {
         // Provjera da li je recenzija unesena
         if (!reviewText.isEmpty()) {
             // Spremanje recenzije u Firebase Firestore bazu podataka
-            db.collection("recenzije")
-                    .add(new Review(reviewText))
+            db.collection("recenzijecres")
+                    .add(new ForumKrk.Review(reviewText))
                     .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                         @Override
                         public void onSuccess(DocumentReference documentReference) {
@@ -98,7 +99,7 @@ public class ForumKrk extends Fragment {
 
     private void displayData() {
         // Dohvaćanje podataka iz Firestore baze podataka
-        db.collection("recenzije")
+        db.collection("recenzijecres")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
@@ -121,7 +122,7 @@ public class ForumKrk extends Fragment {
     }
 
 
-    public static class Review {
+    private static class Review {
         private String text;
 
         public Review(String text) {

@@ -30,4 +30,9 @@
     <string name="unesite_naslov">Unesite naslov</string>
     <string name="unesite_sadr_aj">Unesite sadržaj</string>
     <string name="objavi">Objavi</string>
+    <string name="action_forumcres">Forum Cres</string>
+    <string name="action_forumrab">Forum Rab</string>
+    <string name="action_forumlosinj">Forum Lošinj</string>
+    <string name="izrada">Izradili: Leonarda Scutari, Marko Vrban</string>
+    <string name="dodaj_recenziju">Dodaj recenziju</string>
 </resources>

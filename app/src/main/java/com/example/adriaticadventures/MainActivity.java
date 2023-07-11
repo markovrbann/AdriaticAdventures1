@@ -1,9 +1,13 @@
 package com.example.adriaticadventures;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -26,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
         FirebaseApp.initializeApp(this);
 
 
@@ -36,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                sendEmail();
             }
         });
         DrawerLayout drawer = binding.drawerLayout;
@@ -52,6 +57,24 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
     }
+
+    private void sendEmail() {
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("message/rfc822"); // Postavljanje tipa MIME za e-poštu
+
+            // Dodavanje detalja e-pošte (primatelj, naslov, tekst itd.)
+            intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"marko.vrban@student.uniri.hr"});
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Adriatic Adventures");
+            //intent.putExtra(Intent.EXTRA_TEXT, "Ovde ide tekst e-pošte...");
+
+            try {
+                startActivity(Intent.createChooser(intent, "Pošalji e-poštu"));
+            } catch (ActivityNotFoundException e) {
+                // U slučaju da nema aplikacije za slanje e-pošte, prikažite poruku o greški
+                Toast.makeText(this, "Nema podržane aplikacije za slanje e-pošte.", Toast.LENGTH_SHORT).show();
+            }
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
