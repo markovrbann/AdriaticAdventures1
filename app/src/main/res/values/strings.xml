@@ -25,4 +25,9 @@
     <string name="rab_opis">Otok Rab, poznat kao "Srebrni otok", očarava posjetitelje svojom ljepotom i raznolikošću. Slikovite plaže, povijesne znamenitosti poput starog grada Raba, prekrasna priroda i bujna vegetacija čine Rab jedinstvenim. Uživajte u kristalno čistim vodama, istražite tajanstvene špilje poput Špilje Lopača, prošetajte po stazama Kamenjaka ili se prepustite adrenalinskim sportovima poput ronjenja i jedrenja. Rab je također poznat po svojoj bogatoj gastronomskoj ponudi, s autentičnim jelima poput Rapske torte i domaćeg vina. Upoznajte prijateljske lokalne stanovnike i istražite prekrasan otok Rab, koji pruža nevjerojatno iskustvo i nezaboravne trenutke.</string>
     <string name="adriatic_adventures">Adriatic Adventures</string>
     <string name="opis_pocetna1">Prikaz glavnih otoka \nu Primorsko - goranskoj županiji:\n\nOtok Krk\nOtok Cres\nOtok Rab\nOtok Lošinj</string>
+    <string name="Karta">Karta</string>
+    <string name="action_forumkrk">Forum Krk</string>
+    <string name="unesite_naslov">Unesite naslov</string>
+    <string name="unesite_sadr_aj">Unesite sadržaj</string>
+    <string name="objavi">Objavi</string>
 </resources>
