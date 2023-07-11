@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.forumkrk.ForumKrk">
+    tools:context=".ui.forumlosinj.ForumLosinj">
 
     <EditText
-        android:id="@+id/reviewEditText"
+        android:id="@+id/reviewEditText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Unesite recenziju" />
 
     <Button
-        android:id="@+id/submitButton"
+        android:id="@+id/submitButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/boja"
@@ -41,23 +41,24 @@
         android:layout_height="match_parent"
         android:layout_marginTop="255dp"> >
 
-    <FrameLayout
-        android:id="@+id/reviewContainer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-
-        <TextView
-            android:id="@+id/reviewTextView"
+        <FrameLayout
+            android:id="@+id/reviewContainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:textSize="14dp"
-            android:textColor="@color/black"
-            android:background="@color/boja" />
+            android:layout_height="match_parent" >
 
-    </FrameLayout>
+
+            <TextView
+                android:id="@+id/reviewTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:background="@color/boja" />
+
+        </FrameLayout>
 
     </ScrollView>
+
 
 </RelativeLayout>

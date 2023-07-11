@@ -41,5 +41,20 @@
         android:name="com.example.adriaticadventures.ui.forumkrk.ForumKrk"
         android:label="@string/action_forumkrk"
         tools:layout="@layout/fragment_forum_krk" />
+    <fragment
+        android:id="@+id/nav_fragment_fc"
+        android:name="com.example.adriaticadventures.ui.forumcres.ForumCres"
+        android:label="@string/action_forumcres"
+        tools:layout="@layout/fragment_forum_cres" />
+    <fragment
+        android:id="@+id/nav_fragment_fr"
+        android:name="com.example.adriaticadventures.ui.forumrab.ForumRab"
+        android:label="@string/action_forumrab"
+        tools:layout="@layout/fragment_forum_rab" />
+    <fragment
+        android:id="@+id/nav_fragment_fl"
+        android:name="com.example.adriaticadventures.ui.forumlosinj.ForumLosinj"
+        android:label="@string/action_forumlosinj"
+        tools:layout="@layout/fragment_forum_losinj" />
 
 </navigation>
