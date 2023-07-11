@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081571585924",
+    "project_id": "adriaticadventures-de9b1",
+    "storage_bucket": "adriaticadventures-de9b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081571585924:android:065fb64170ea6452b4f7d1",
+        "android_client_info": {
+          "package_name": "com.example.adriaticadventures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081571585924-o9s1uq9al77r91egu2esjflk2km0dkoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJJGKMHjRKgl3-ZK6KIfuMyuLZ-hzO_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081571585924-o9s1uq9al77r91egu2esjflk2km0dkoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

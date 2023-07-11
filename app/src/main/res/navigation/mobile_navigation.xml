@@ -35,4 +35,11 @@
         android:name="com.example.adriaticadventures.ui.item.RabFragment"
         android:label="@string/Rab"
         tools:layout="@layout/fragment_rab2" />
+
+    <fragment
+        android:id="@+id/nav_fragment_fk"
+        android:name="com.example.adriaticadventures.ui.forumkrk.ForumKrk"
+        android:label="@string/action_forumkrk"
+        tools:layout="@layout/fragment_forum_krk" />
+
 </navigation>

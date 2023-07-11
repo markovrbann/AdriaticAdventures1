@@ -24,5 +24,10 @@
             android:id="@+id/nav_fragment_item"
             android:icon="@drawable/island"
             android:title="@string/Rab" />
+        <item
+            android:id="@+id/nav_fragment_fk"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/action_forumkrk" />
+
     </group>
 </menu>
